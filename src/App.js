@@ -5,6 +5,7 @@ import Navbar from './Components/Navbar/Navbar';
 import Hero from './Components/Hero/Hero';
 import About from './Components/About/About';
 import Title from './Components/Title/Title'
+import Services from './Components/Services/Services'
 
 console.log(Title);
 
@@ -19,6 +20,7 @@ const App = () => {
       <About />
 
       <Title subtitle ="What we Offer" Title = "Our Services" />
+      <Services />
     </div>
 
 
