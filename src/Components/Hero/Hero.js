@@ -10,7 +10,6 @@ const Hero = () => {
 
             <video src={vid_2} autoPlay loop muted >
 
-
             </video>
 
             <div className="vid-content">

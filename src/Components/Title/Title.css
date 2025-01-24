@@ -1,0 +1,21 @@
+.title{
+    display: flex;
+    align-items: left;
+    justify-content: center;
+    flex-direction: column;
+    text-align: left;
+    padding-left: 11%;
+    padding-top: 5%;
+}
+
+.title h4{
+  color:  rgb(255,69,26); 
+  font-weight: bold;
+  font-size: 18px;
+  text-transform: uppercase;
+}
+
+.title h2{
+    font-weight: bold;
+    font-size: 35px;
+}
