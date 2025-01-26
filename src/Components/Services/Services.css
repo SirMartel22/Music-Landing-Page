@@ -1,84 +1,80 @@
-.services{
-    margin: 80px auto;
-    width: 90%;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding-left: 6%;
-    padding-right: 6%;
+.services-section{
+    padding: 10px 10%;
+    padding-right: 5%;
+    margin: 50px 0
 }
 
-.service{
+.services-flex{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.services-flex .flex-section{
+    width: 60%;
+}
+
+.services-flex .image{
+    width: 40%;
+    height: 515px;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+
+.services-flex .image img{
     width: 100%;
-    border-radius: 10px;
-    display: block;
-    flex-basis: 31%;
-    background-size: 100%;
+    height: 100%;
     object-fit: cover;
-    background-repeat: no-repeat;
-    padding: 10% 4%;
-    min-height: 400px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    color: #f5f5f5;
-    text-align: center;
-    position: relative;
-}
-
-.service h3{
-    font-size: 30px;
-    font-weight: bold;
-}
-
-.studio{
-    background-image: linear-gradient(to right, rgba(13, 12, 12, 0.9), 
-    rgba(27, 19, 16, 0.3)), url("../../assets/studio-services.jpg");
-}
-
-.Events{
-    background-image: url("../../assets/event.jpg");
-}
-
-.Artist{
-    background-image: linear-gradient(to right, rgba(13, 12, 12, 0.5), 
-    rgba(27, 19, 16, 0.3)),url("../../assets/collab-2.jpg");
-}
-
-.studioText{
     border-radius: 10px;
-    position: absolute;
-    top: 0;
-    left: 0;
-    bottom: 0;
-    right: 0;
+}
+
+.services-header{
     display: flex;
     align-items: center;
     justify-content: center;
-    flex-direction: column;
-    color: #f5f5f5;
-    cursor: pointer;
-    opacity: 0;
-    padding-top: 15%;
-    transition: 0.4s ;
+    text-align: center;
 }
 
-.studioText p{
-    width: 80%; 
-    font-size: 18px;
+.services-section h1{
+    font-size: 2.9rem;
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 50px;
+    width: 60%;
+    color: #FF451A;
+}
+
+.services-section .services-container{
+    display: grid;
+    grid-template-rows: repeat(2, 250px);
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    grid-gap: 20px;
+}
+
+.card h2{
+    font-size: 1.3rem;
+    font-weight: 700;
     margin-bottom: 10px;
-    line-height: 1.7;
-    text-align: left;
+    
 }
 
-.service:hover .studioText{
-    background: rgba(13, 12, 12, 0.7);
-    opacity: 1;
-    padding-top: 0;
-    text-align: left;
+.card a{
+    color: #FF451A;
+    font-weight: bold;
+    cursor: pointer;
+    text-decoration: underline;
 }
 
-.service:hover h3{
-    opacity: 0;
+.services-section .services-container .card{
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    justify-content: center;
+    border-radius: 10px;
+    box-shadow: 0 3px 10px rgba(243, 244, 244, 0.906);
+    transition: 0.3s;
+    gap: 15px;
+    padding: 20px;
 }
-
