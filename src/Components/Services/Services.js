@@ -1,58 +1,55 @@
-import React from 'react'
-import './Services.css'
+import React from 'react';
+import './Services.css';
+import servicesImg from '../../assets/mic-4.jpg'
 
-// import studioImg from '../../assets/studio-services.jpg'
-// import eventImg from '../../assets/event.jpg'
-// import artistCollab from '../../assets/collab-2.jpg'
 
 const Services = () => {
-
-    
   return (
-    <div className="services">
-        <div className="service studio">
-            <div className="studioTitle">
-                <h3>Studio Services</h3> 
+
+    <div className="services-section">
+        <div className='services-header'>
+            <h1>Our services are tailored to meet your needs.</h1>
+        </div>
+
+        <div className="services-flex">
+                <div className="services-container flex-section">
+                    <div className='recording card'>
+                        <h2>Recording Services</h2>
+                        <p>Our studio is equipped with the latest technology to deliver the best sound quality. 
+                            We offer vocal recording, instrumentals, and mastering. </p>
+                        <a href="https://musical-website.com">Learn More</a>
+
+                    </div>
+
+                    <div className='Production card'>
+                        <h2>Production and Mixing Services </h2>
+                        <p>Our team of producers and sound engineers will help you create the perfect sound.</p>
+                         <a href="https://musical-website.com">Learn More</a>
+
+                    </div>
+
+                    <div className='commercial card'>
+                        <h2>Commercial and Media Projects</h2>
+                        <p>We provide music production services for commercials, films, and other media projects.</p>
+                         <a href="https://musical-website.com">Learn More</a>
+                        
+                    </div>
+
+                    <div className='customizable-services card'>
+                        <h2>Customizable Services</h2>
+                        <p>Our studio is equipped with the latest technology to deliver the best sound quality. 
+                            We offer vocal recording, instrumentals, and mastering. </p>
+                         <a href="https://musical-website.com">Learn More</a>
+                    </div>
+
             </div>
-            <div className='studioText'>
-                <p>
-                        <li> Information about studio work, recording, and production services. </li> 
-                       <li> Packages offered (e.g., vocal recording, instrumentals, mastering). </li> 
-                       <li> A booking form for studio sessions.</li>
-                </p>
-                <button className='btn'>Learn More </button>
+
+            <div className="image flex-section">
+                <img src={servicesImg} alt="" />
             </div>
         </div>
 
-        <div className="service Events">
-            <div className="eventTitle">
-                <h3>Events</h3> 
-                <div className='studioText'>
-                    <p>
-                       <li> Calendar of upcoming gospel music concerts, workshops, or live recording sessions. </li> 
-                       <li> Details of past events with photos or videos. </li> 
-                       <li> Registration for events or workshops</li>
-                    </p>
-                    <button className='btn'>Learn More </button>
-
-                </div>
-            </div>
-        </div>
-
-        <div className="service Artist">
-            <div className="artistTitle">
-                <h3>Artist and Collaboration </h3>
-                <div className='studioText'>
-                    <p>
-                       <li> Profiles of gospel artists, keyboardists, and musicians involved with the brand.</li> 
-                       <li> Links to their music, performances, or social media. </li> 
-                       <li> Information on how to collaborate with the brand.</li> 
-                    </p>
-                    <button className='btn'>Learn More </button>
-
-                </div>
-            </div>
-        </div>
+      
     </div>
   )
 }
