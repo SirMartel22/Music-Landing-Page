@@ -8,6 +8,7 @@ import Title from './Components/Title/Title'
 import Services from './Components/Services/Services'
 import Studio from './Components/Studio/Studio'
 import Gallery from './Components/Gallery/Gallery'
+import Contact from './Components/Contact/Contact'
 
 console.log(Title);
 
@@ -21,13 +22,14 @@ const App = () => {
       <Title subtitle ="Who we are" Title = "About Us" />
       <About />
 
-      {/* <Title subtitle ="What we Offer" Title = "Services" /> */}
       <Services />
 
       <Studio />
 
       <Title subtitle ="check our past work" Title = "Gallery" />
       <Gallery />
+
+      <Contact />
 
       
 

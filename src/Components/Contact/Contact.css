@@ -1,0 +1,44 @@
+.contact-section{
+    width: 100%;
+    padding: 5% 10%;
+    background-size: cover;
+    background-color: #f5f5f5;
+}
+
+.contact-section h1{
+    font-size: 3.5rem;
+    font-weight: 700;
+    margin-bottom: 5px;
+}
+
+.contact-text .form{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.contact-text{
+    display: flex;
+    flex-direction: column;
+    width: 55%;
+    align-items: left;
+    justify-content: center;
+}
+
+.nameInput, .emailInput, .messageInput{
+    display: flex;
+    align-items: left;
+    justify-content: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.emailInput{
+    padding-top: 10px;;
+}
+
+/* label{
+    font-size: 1.2rem;
+    font-weight: 700;
+} */
