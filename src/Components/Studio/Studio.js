@@ -1,9 +1,9 @@
 import React from 'react';
 import './Studio.css';
 
-import bassPlayer from '../../assets/collab.jpg'
+import {FontAwesomeIcon} from '@fortawesome/react-fontawesome';
 
-import studioMic from https://fontawesome.com/icons/microphone-lines?f=classic&s=solid
+
 
 const Studio = () =>{
 
@@ -21,6 +21,7 @@ const Studio = () =>{
             <div className="studio-grid">
 
                 <div className="studio-work">
+                    <FontAwesomeIcon icon="fa-solid fa-microphone-lines" />
                     <h1>Studio Work</h1>
                     <p>Our state-of-the-art studio provides a 
                         professional environment with top-notch
@@ -46,12 +47,9 @@ const Studio = () =>{
                        that stand out across all platforms and genres.
                     </p>
                 </div>
-
-
             </div>
-
         </div>
-
-
     )
 }
+
+export default Studio;
