@@ -13,7 +13,6 @@ const Contact = () =>{
         email: "kindly enter your email address here",
         message: "kindly enter your message here",
         button: "Submit"
-
     }
 
     return(
@@ -43,15 +42,11 @@ const Contact = () =>{
 
                 <div className="messageInput">
                     <label htmlFor="Email">{form.messageLabel}</label>
-                    <input type="text" placeholder={form.message} /> <br/>
+                    <textarea name="textArea" id="">Enter text here</textarea>
                 </div>
 
                 <button className='btn'>{form.button}</button>
            </div>
-
-
-
-
 
         </div>
     )
