@@ -14,8 +14,9 @@
 .contact-text .form{
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: left;
     align-items: center;
+    gap: 20px;
 }
 
 .contact-text{
@@ -36,6 +37,14 @@
 
 .emailInput{
     padding-top: 10px;;
+}
+
+input{
+    width: 100%;
+    padding: 15px;
+    margin: 10px 0;
+    border: none;
+    border-radius: 100px;
 }
 
 /* label{

@@ -33,6 +33,7 @@ const Contact = () =>{
                     <input type="text" placeholder={form.name} />
 
                 </div>
+
                 <div className="emailInput">
                     <label htmlFor="Email">{form.emailLabel}</label>
                     <input type="text" placeholder={form.email} /> <br/>
@@ -45,8 +46,11 @@ const Contact = () =>{
                     <input type="text" placeholder={form.message} /> <br/>
                 </div>
 
-                <button>{form.button}</button>
+                <button className='btn'>{form.button}</button>
            </div>
+
+
+
 
 
         </div>
