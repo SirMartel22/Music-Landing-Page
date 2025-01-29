@@ -20,9 +20,9 @@ const Contact = () =>{
         <div className = "contact-section">
            <div className="contact-text">
 
-               <div className="title">
-                <h1>{form.title}</h1>
-                <p>{form.description}</p>
+               <div className="form-title">
+                    <h1>{form.title}</h1>
+                    <p>{form.description}</p>
                </div>
                
                 
@@ -42,7 +42,7 @@ const Contact = () =>{
 
                 <div className="messageInput">
                     <label htmlFor="Email">{form.messageLabel}</label>
-                    <textarea name="textArea" id="">Enter text here</textarea>
+                    <textarea name="textArea" id="" placeholder={form.message}> </textarea>
                 </div>
 
                 <button className='btn'>{form.button}</button>
