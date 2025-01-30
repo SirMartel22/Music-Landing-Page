@@ -3,8 +3,9 @@
     align-items: center;
     justify-content: center;
     width: 100%;
-    padding: 5% 10%;
+    padding: 5% 10% 15% 10%;
     background-color: #f5f5f5;
+    z-index: 1
 }
 
 .contact-section h1{
