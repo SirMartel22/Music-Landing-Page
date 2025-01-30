@@ -9,6 +9,7 @@ import Services from './Components/Services/Services'
 import Studio from './Components/Studio/Studio'
 import Gallery from './Components/Gallery/Gallery'
 import Contact from './Components/Contact/Contact'
+import Address from './Components/Address/Address';
 
 console.log(Title);
 
@@ -31,7 +32,7 @@ const App = () => {
 
       <Contact />
 
-      
+      <Address />
 
 
     </div>
