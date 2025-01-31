@@ -15,15 +15,14 @@ const Address = () =>{
 
                 <div className="address-container">
 
-                    <div className="aboutt box">
+                    <div className="aboutt division">
                     <FontAwesomeIcon className='icon' icon={faAddressCard} 
                                             color='rgb(241, 71, 10)'
                                             size="2x"/>
                         <h3>About</h3>
                         <p>Running Guide Workout</p>
                     </div>
-
-                    <div className="Phone box">
+                    <div className="call division">
 
                     <FontAwesomeIcon className='icon' icon={faPhone} 
                                             color='rgb(241, 71, 10)'
@@ -34,7 +33,7 @@ const Address = () =>{
 
                     </div>
 
-                    <div className="location box">
+                    <div className="location division">
                          <FontAwesomeIcon className='icon' icon={faLocationCrosshairs} 
                                             color='rgb(241, 71, 10)'
                                             size="2x"/>
