@@ -39,3 +39,24 @@ a{
 .vid-content .btn{
   margin-top: 7%;
 }
+
+
+@media screen and (max-width: 480px) {
+  .navigation {
+    padding-left: 5%;
+    padding-right: 5%;
+  }
+  
+  .btn {
+    padding: 12px 20px;
+    font-size: 14px;
+    width: 100%;
+    max-width: 300px;
+    display: block;
+    margin: 0 auto;
+  }
+  
+  .vid-content .btn {
+    margin-top: 5%;
+  }
+}

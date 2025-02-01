@@ -9,7 +9,7 @@ const About = () =>{
         <div className="about">
             <div className="about-container">
 
-                <div className='aboutParagraph'>
+                <div className='aboutText'>
                     <p>Founded to spread the message of hope and faith through music, 
                         the brand has become a beacon of inspiration in gospel circles,
                         combining heartfelt lyrics with soulful melodies to uplift and transform lives.
@@ -22,7 +22,7 @@ const About = () =>{
                     <img src={mic_2} alt="" />
                 </div>
             </div>
-            
+
         </div>
     )
 }

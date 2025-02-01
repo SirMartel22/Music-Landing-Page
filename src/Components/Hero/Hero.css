@@ -52,3 +52,32 @@ video{
     /* margin: 10px auto 20px; */
     line-height: 1.4;
 }
+
+@media(max-width: 480px){
+    .Hero{
+        width: 480px;
+        align-items: left;
+        width: 100%;
+        height: 60vh;
+    } 
+    
+    .Hero::before{
+        height: 60vh;
+       
+    }
+
+    .vid-content{
+        margin-left: 2%;
+    }
+
+    .vid-content h1{
+        font-size: 40px;
+        text-align: left;
+    }
+
+    video{
+        height: 60vh;
+    }
+
+
+}
