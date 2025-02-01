@@ -7,19 +7,22 @@ const About = () =>{
 
     return (
         <div className="about">
-            <div className='aboutParagraph'>
-                <p>Founded to spread the message of hope and faith through music, 
-                    the brand has become a beacon of inspiration in gospel circles,
-                    combining heartfelt lyrics with soulful melodies to uplift and transform lives.
-                </p>
+            <div className="about-container">
 
-                 <button className='btn'> More About Us</button>
+                <div className='aboutParagraph'>
+                    <p>Founded to spread the message of hope and faith through music, 
+                        the brand has become a beacon of inspiration in gospel circles,
+                        combining heartfelt lyrics with soulful melodies to uplift and transform lives.
+                    </p>
+
+                    <button className='btn'> More About Us</button>
+                </div>
+
+                <div className="aboutImg">
+                    <img src={mic_2} alt="" />
+                </div>
             </div>
-
-            <div className="aboutImg">
-                <img src={mic_2} alt="" />
-            </div>
-
+            
         </div>
     )
 }
