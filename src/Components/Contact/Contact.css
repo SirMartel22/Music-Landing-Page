@@ -60,3 +60,15 @@ textarea{
     border-radius: 20px;
     margin-bottom: 40px;
 }
+
+@media (max-width: 480px){
+
+    .contact-text .form{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 20px;
+        width: 100%;
+    }
+}
