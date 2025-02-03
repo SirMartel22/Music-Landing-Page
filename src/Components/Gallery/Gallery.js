@@ -5,7 +5,7 @@ const Gallery = () => {
 
     
   return (
-    <div className="services">
+    <div className="services" id='gallery'>
         <div className="service studio">
             <div className="studioTitle">
                 <h3>Studio Services</h3> 

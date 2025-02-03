@@ -57,14 +57,14 @@
     }
 
     .aboutText{
-       width: 60%;
+       width: 80%;
        font-weight: 400;
        padding: 5px;
-       justify-content: start;
+       justify-content: center;
     }
 
     .aboutImg img{
-        width: 55%;
+        width: 80%;
         height: 70%;
     }
 }

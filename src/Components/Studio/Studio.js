@@ -12,7 +12,7 @@ const Studio = () =>{
     return (
 
 
-        <div className="studio-section">
+        <div className="studio-section" id='studio'>
 
             <div className="studio-header">
 
