@@ -20,11 +20,11 @@ const Navbar = () => {
     <img src={logo} alt="Company Logo" />
 
       <ul>
-          <li><a href="">Home</a></li>
-          <li><a href="">About</a></li>
-          <li><a href="">Gallery</a></li>
-          <li><a href="">Studio Services</a></li>
-          <li><button className="btn">Contact Us</button> </li>
+          <li><a href="#">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#gallery">Gallery</a></li>
+          <li><a href="#studio">Studio Services</a></li>
+          <li><button className="btn"><a href="#contact">Contact Us</a></button> </li>
       </ul>
        
    </nav>
