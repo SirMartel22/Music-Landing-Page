@@ -93,19 +93,11 @@
         padding-right: 4%;
     }
 
-    .service {
-        flex-basis: 100%;
-        min-height: 300px;
-        background-size: cover;
-        background-position: center;
-        margin-bottom: 20px;
-    }
-
     .service h3 {
         font-size: 24px;
     }
 
-    .studioText {
+    /* .studioText {
         opacity: 1;
         background: rgba(13, 12, 12, 0.7);
         padding: 20px;
@@ -118,15 +110,10 @@
         font-size: 16px;
         margin-bottom: 15px;
         line-height: 1.5;
-    }
+    } */
 
     .service:hover .studioText {
         padding: 20px;
-    }
-
-    .service:hover h3 {
-        opacity: 1;
-        margin-bottom: 15px;
     }
 
     /* Adjust background images for better mobile view */
