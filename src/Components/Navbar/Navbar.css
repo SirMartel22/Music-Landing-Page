@@ -66,6 +66,7 @@ nav ul li{
         justify-content: space-around;
         padding: 10% 5%;
         text-align: left;
+        display: none;
 
     }
     nav ul li{
