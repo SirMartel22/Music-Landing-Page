@@ -15,7 +15,6 @@
     left: 0;
     width: 100%;
     height: 100vh;
-    /* background: linear-gradient(rgb(26,7,0, 0.7), rgb(6,2,0, 0.7)); */
     background: linear-gradient(45deg,rgba(13, 12, 12, 0.9), rgba(27, 19, 16, 0.3));
     z-index: 2;
     background-size: cover;
@@ -49,20 +48,18 @@ video{
 .vid-content p{
     font-size: 16px;
     max-width: 700px;
-    /* margin: 10px auto 20px; */
     line-height: 1.4;
 }
 
 @media(max-width: 480px){
     .Hero{
         width: 480px;
-        align-items: left;
         width: 100%;
-        height: 60vh;
+        height: 100vh;
     } 
     
     .Hero::before{
-        height: 60vh;
+        height: 100vh;
        
     }
 
@@ -71,13 +68,24 @@ video{
     }
 
     .vid-content h1{
-        font-size: 40px;
+        font-size: 60px;
+        text-align: left
+    }
+
+    .vid-content p{
         text-align: left;
+        font-size: 18px;
+        padding: 15px 0;
+    }
+
+    .vid-content .btn{
+        width: 50%;
+        align-items: left;
+        display: inline-block
     }
 
     video{
-        height: 60vh;
+        height: 100vh;
     }
-
 
 }

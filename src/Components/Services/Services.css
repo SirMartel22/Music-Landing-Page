@@ -43,7 +43,7 @@
     text-align: center;
     margin-bottom: 50px;
     width: 60%;
-    color: #FF451A;
+    color: #250a04;
 }
 
 .services-section .services-container{
@@ -107,6 +107,7 @@
         font-size: 2rem;
         width: 100%;
         margin-bottom: 30px;
+        text-align: left;
     }
 
     .services-section .services-container {
