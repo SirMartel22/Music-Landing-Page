@@ -32,9 +32,10 @@ const Navbar = () => {
           <li><button className="btn"><a href="#contact">Contact</a></button> </li>
       </ul>
        
-       <div className="nav-icon">
-            <faBars />
-       </div>
+       
+           <FontAwesomeIcon className='nav-icon' icon={faBars} 
+                            color='rgb(241, 71, 10)'
+                            size="2x"/>
    </nav>
   )
 }

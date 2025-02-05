@@ -34,9 +34,10 @@ nav ul li{
 }
 
 .nav-icon{
-    font-size: 6rem;
-    color: #fff;
+    font-size: 2rem;
+    color: #eb4314;
     display: none;
+    cursor: pointer;
 }
 
 @media(max-width: 480px){
@@ -66,7 +67,7 @@ nav ul li{
         justify-content: space-around;
         padding: 10% 5%;
         text-align: left;
-        /* display: none; */
+        display: none;
 
     }
     nav ul li{
@@ -77,6 +78,10 @@ nav ul li{
     nav ul li .btn{
         width: 100%;
         margin-left: 0;
+    }
+
+    .nav-icon{
+        display: block;
     }
 
 }
