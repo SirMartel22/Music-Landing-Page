@@ -44,7 +44,7 @@
 
 @media(max-width: 480px){
     .about{
-        width: 480px;
+        /* width: 480px; */
         padding: 2%;
     }
     
