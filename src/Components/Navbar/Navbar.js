@@ -2,7 +2,9 @@ import React from 'react'
 import {useEffect, useState} from 'react';
 import './Navbar.css'
 
-import logo from '../../assets/logo.png'
+import logo from '../../assets/logo.png' 
+
+import { faBars } from "react-icons/fa6"
 
 const Navbar = () => {
 
@@ -27,6 +29,9 @@ const Navbar = () => {
           <li><button className="btn"><a href="#contact">Contact</a></button> </li>
       </ul>
        
+       <div className="nav-icon">
+            <faBars />
+       </div>
    </nav>
   )
 }
