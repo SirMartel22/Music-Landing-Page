@@ -78,8 +78,8 @@ nav img{
         text-align: left;
     }
 
-    .nav-link .active{
-        /* top: 10%; */
+    .nav-link.active{
+        top: 10%;
         right: 0;
     }
 
