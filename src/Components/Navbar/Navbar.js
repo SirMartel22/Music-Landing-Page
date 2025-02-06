@@ -13,6 +13,12 @@ const Navbar = () => {
 
   const [sticky, setSticky] = useState(false);
 
+  const [isOpen, setIsOpen] = useState(false);
+
+  const toggleMenu = () =>{
+    setIsOpen(!isOpen)
+  }
+
   useEffect(()=>{
     window.addEventListener( "scroll", ()=>{
       window.scrollY > 500 ? setSticky(true) : setSticky(false); 
@@ -24,7 +30,7 @@ const Navbar = () => {
 
     <img src={logo} alt="Company Logo" />
 
-      <ul>
+      <ul className={`nav-link ${isOpen ? 'active': ''}`}>
           <li><a href="#home">Home</a></li>
           <li><a href="#about">About</a></li>
           <li><a href="#gallery">Gallery</a></li>
@@ -35,7 +41,7 @@ const Navbar = () => {
        
            <FontAwesomeIcon className='nav-icon' icon={faBars} 
                             color='rgb(241, 71, 10)'
-                            size="2x"/>
+                            size="2x" onClick={toggleMenu}/>
    </nav>
   )
 }
